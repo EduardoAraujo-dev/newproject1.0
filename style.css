@@ -162,3 +162,13 @@ footer {
   padding: 24px 0;
   font-size: 14px;
 }
+
+/*media queries*/
+@media (min-width: 768px) {
+  :root {
+    --bg-url: url(./Assets/Desktop/Background.jpg);
+  }
+  .light {
+    --bg-url: url(./Assets/Desktop/light.jpg);
+  }
+}
